@@ -2,3 +2,5 @@
 
 export(cv2df)
 export(eis2df)
+export(txt2df)
+importFrom(dplyr,"%>%")

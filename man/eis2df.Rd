@@ -15,7 +15,15 @@ eis2df(datafilename, wearea = NA)
 dataframe
 }
 \description{
-This function converts Zahner impedance data
+This function imports Zahner impedance data
+that has been manually converted to txt
 to dataframe while retaining metadata.
+}
+\details{
+This function imports Zahner impedance data that was generated
+   from within the Thales V software (using the "Display spectra" and
+   "Save as ASCII" functions).
+   Note that the format of the impedance txt file created by the Thales
+   "Bin2Txt.exe" program is different - use \code{\link{txt2df}} for those.
 }
 
