@@ -1,9 +1,9 @@
 Package: zahner
 Type: Package
 Title: Read experimental data from Zahner electrochemical workstation
-Version: 0.0.0.9000
 Description: A collection of script and functions to read experimental data from Zahner electrochemical workstation.
 Authors@R: person("Taha", "Ahmed", email = "taha@chepec.se", role = c("aut", "cre"))
+Version: 0.0.0.9001
 License: GPL-3
 LazyData: TRUE
 RoxygenNote: 5.0.1

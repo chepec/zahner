@@ -14,23 +14,25 @@ txt2df(datafilename, wearea = NA, runid.width = 3)
 \item{runid.width}{width of the runid (numeric)}
 }
 \value{
-dataframe with experimental data and metadata
-   LOGF               : log(frequency) / Hz
-   LOGO               : log(Omega)
-   LOGZm              : log(Z) measured / Ohm
-   Phim               : Phase / degrees
-   Real               : Real part (of impedance)
-   Imag               : Imaginary part (of impedance)
-   Phis               : Smoothed phase / degrees
-   LOGZs              : Smoothed log(Z)
-   LOGZzhit           : log(Z) ZHIT / Ohm
-   sampleid           : sampleid
-   runid              : runid
-   Current            : current (metadata)
-   Potential          : potential during measurement
-   exp.started        : start time
-   exp.ended          : end time
-   exp.length.seconds : duration in seconds
+dataframe with the following columns:
+   \tabular{ll}{
+   \code{LOGF}               \tab log(frequency) / Hz \cr
+   \code{LOGO}               \tab log(Omega) \cr
+   \code{LOGZm}              \tab log(Z) measured / Ohm \cr
+   \code{Phim}               \tab Phase / degrees \cr
+   \code{Real}               \tab Real part (of impedance) \cr
+   \code{Imag}               \tab Imaginary part (of impedance) \cr
+   \code{Phis}               \tab Smoothed phase / degrees \cr
+   \code{LOGZs}              \tab Smoothed log(Z) \cr
+   \code{LOGZzhit}           \tab log(Z) ZHIT / Ohm \cr
+   \code{sampleid}           \tab sampleid \cr
+   \code{runid}              \tab runid \cr
+   \code{Current}            \tab current (metadata) \cr
+   \code{Potential}          \tab potential during measurement \cr
+   \code{exp.started}        \tab start time \cr
+   \code{exp.ended}          \tab end time \cr
+   \code{exp.length.seconds} \tab duration in seconds \cr
+   }
 }
 \description{
 This function imports Zahner (Thales) impedance data
